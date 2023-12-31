@@ -1,5 +1,7 @@
-FROM nginx:latest
+FROM 'nginx:latest'
+RUN service nginx start
 
+#FROM centos:7
 #COPY ./nginx/nginx.repo /etc/yum.repos.d/nginx.repo
 #
 #RUN yum install -y nginx
