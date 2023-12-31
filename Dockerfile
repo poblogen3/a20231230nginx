@@ -1,5 +1,5 @@
 FROM nginx
-RUN service nginx start
+#RUN service nginx start
 
 #FROM centos:7
 #COPY ./nginx/nginx.repo /etc/yum.repos.d/nginx.repo
