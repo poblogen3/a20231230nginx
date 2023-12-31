@@ -1,4 +1,4 @@
-FROM 'nginx:latest'
+FROM nginx
 RUN service nginx start
 
 #FROM centos:7
